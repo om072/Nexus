@@ -1,13 +1,13 @@
 import mongoose from "mongoose";
-
+const Schema = mongoose.Schema
 
 const bookingSchema = new mongoose.Schema({
   date: { type: String, required: true },
   time: { type: String, required: true },
   email: { type: String, required: true },
-  sport: { type: String, required: true },
+  sport: { type: Schema.Types.ObjectId, ref: 'Sport' },
   center: { type: String, required: true },
-  court: { type: String, required: true },
+  court: { type: Schema.Types.ObjectId, ref: 'Court'},
   createdAt: { type: Date, default: Date.now }
 });
 

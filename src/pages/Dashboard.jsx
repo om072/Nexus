@@ -72,9 +72,9 @@ function DashboardPage() {
               <td>{booking.date}</td>
               <td>{booking.time}</td>
               <td>{booking.email}</td>
-              <td>{booking.sport}</td>
+              <td>{booking.sport.name}</td>
               <td>{booking.center}</td>
-              <td>{booking.court}</td>
+              <td>Court {booking.court.number}</td>
             </tr>
             ))}
           </tbody>
