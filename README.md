@@ -1,31 +1,31 @@
-# Sports Center Booking Application
+# Sports Center Booking Application 🏟️
 
 ## Project Overview
-This project is a booking application designed for the operations team of a sports technology company to manage bookings across multiple centers, sports, and courts. The application enables users to view and create bookings, ensuring that no double bookings occur for the same resource.
+This booking application is designed for the operations team of a sports technology company to efficiently manage bookings across various sports centers. It prevents double bookings and enhances the user experience by providing an easy interface to view and create bookings.
 
-College ID: OM KHANGAT (IIT2021218)
+**College ID**: OM KHANGAT (IIT2021218)
 
+## Screenshots 📸
 ![Dashboard](https://github.com/om072/Nexus/blob/main/images_src/Dashboard.png)
 ![Booking Interface](https://github.com/om072/Nexus/blob/main/images_src/booking.png)
 ![Schedule](https://github.com/om072/Nexus/blob/main/images_src/schedule.png)
 
-## Tech Stack
-- React
-- Node.js, Express.js
-- MongoDB
-- Deployment: Netlify, Render
+## Tech Stack 💻
+- **Frontend**: React 🌐
+- **Backend**: Node.js, Express.js ⚙️
+- **Database**: MongoDB 🗄️
+- **Deployment**: Netlify (Frontend), Render (Backend) 🚀
 
-## Features
+## Features 🌟
+- **Multiple Centers**: Manage bookings for different centers. 🏢
+- **Multiple Sports**: Support for various sports such as badminton, squash at each center. 🏸
+- **Multiple Resources**: Multiple courts or resources available for each sport. 🎾
+- **Booking Slots**: Book in 60-minute intervals. ⏱️
+- **Operations Management**: Centralized management of bookings. 🔧
+- **View Bookings**: Capability to view all existing bookings per center and sport. 👀
+- **Create Bookings**: Prevent overlapping bookings. ✍️
 
-1. Multiple Centers: Manage bookings for different centers.
-2. Multiple Sports: Each center can offer multiple sports, such as badminton, squash.
-3. Multiple Resources: Each sport can have multiple courts or resources.
-4. Booking Slots: 60-minute booking slots available.
-5. Operations Management: Manage bookings for all sports in each center.
-6. View Bookings: View all existing bookings for a specific center and sport.
-7. Create Bookings: Create a new booking, ensuring no double-booking for the same resource and time slot.
-
-## Setup Instructions
+## Setup Instructions 🛠️
 
 ### Prerequisites
 - Node.js and React must be installed and set up on your system
