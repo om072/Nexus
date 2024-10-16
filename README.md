@@ -5,6 +5,12 @@ This project is a booking application designed for the operations team of a spor
 
 College ID: OM KHANGAT(IIT2021218)
 
+![](https://github.com/om072/Nexus/blob/main/images_src/Dashboard.png)
+
+![](https://github.com/om072/Nexus/blob/main/images_src/booking.png)
+
+![](https://github.com/om072/Nexus/blob/main/images_src/schedule.png)
+
 
 ## Tech Stack
  React
