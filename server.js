@@ -3,6 +3,7 @@ import cors from "cors"
 import mongoose from "mongoose"
 import bodyParser from 'body-parser'
 import {Booking, Center} from "./src/models/index.js";
+import { ObjectId } from 'mongodb'; 
 const app = express();
 
 
@@ -23,8 +24,9 @@ app.get('/getBookings', async (req, res) => {
     const query = {};
 
     if (date) query.date = date;
-    if (sport) query.sport = sport;
-    if (center) query.center = center;
+    // if (sport) query.sport = sport;
+    if(sport) query.sport = new ObjectId(sport);
+    if (center) query.center = center.name;
 
     console.log("query",query)
 
